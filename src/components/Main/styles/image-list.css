@@ -5,3 +5,9 @@ img {
   0px 4px 8px rgba(0, 0, 2, 0.28);
   margin: 15px 0 50px 0;
 }
+
+@media screen and (max-width: 700px) {
+  img {
+    width: 100%;
+  }
+}

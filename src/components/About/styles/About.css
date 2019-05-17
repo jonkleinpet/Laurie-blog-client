@@ -1,3 +1,9 @@
 .aboutMe-section {
   width: 60vw;
 }
+
+@media screen and (max-width: 700px) {
+  .aboutMe-section {
+    display: inline;
+  }
+}

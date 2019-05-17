@@ -46,3 +46,16 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 700px) {
+
+  .landing-section {
+    display: inline;
+  }
+
+  .landing-section p {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+}
